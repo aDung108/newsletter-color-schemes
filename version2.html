@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter - Version 2: Creative & Energy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6C5CE7;
+            --secondary-color: #2D3436;
+            --accent-color: #FD79A8;
+            --body-bg: #F9F9FB;
+            --card-bg: #FFFFFF;
+            --text-dark: #2D3436;
+            --text-muted: #636E72;
+            --btn-hover: #5844D8;
+        }
+
+        body {
+            background-color: var(--body-bg);
+            color: var(--text-dark);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .primary-bg { background-color: var(--primary-color) !important; }
+        .secondary-bg { background-color: var(--secondary-color) !important; }
+        .accent-bg { background-color: var(--accent-color) !important; }
+
+        .text-primary-color { color: var(--primary-color) !important; }
+        .text-accent-color { color: var(--accent-color) !important; }
+        .custom-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ECECEC;
+            box-shadow: 0 6px 16px rgba(108, 92, 231, 0.08);
+            border-radius: 12px;
+        }
+
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            color: #FFFFFF;
+            border: none;
+            font-weight: 600;
+            padding: 10px 24px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: var(--btn-hover);
+            color: #FFFFFF;
+            box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+        }
+
+        .header-box {
+            border-radius: 16px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5" style="max-width: 680px;">
+        <header class="text-center mb-4 p-5 header-box text-white">
+            <h1 class="fw-bold mb-2">Creative Pulse</h1>
+            <p class="mb-0 opacity-90">Khơi nguồn cảm hứng và bứt phá ý tưởng mới</p>
+        </header>
+
+        <section class="card custom-card mb-4">
+            <div class="card-body p-4">
+                <span class="badge bg-warning text-dark mb-2">Cảm hứng tuần</span>
+                <h2 class="card-title text-primary-color h3 fw-bold">Tái định hình quy trình sáng tạo của bạn</h2>
+                <p class="card-text text-secondary">
+                    Đưa những ý tưởng táo bạo vào thực tế với bảng phân phối công việc trực quan, giúp các đội nhóm thiết kế luôn giữ nhịp sáng tạo tốt nhất.
+                </p>
+                <a href="#" class="btn btn-primary-custom">Bắt đầu trải nghiệm</a>
+            </div>
+        </section>
+
+        <section class="row g-3 mb-4">
+            <div class="col-md-6">
+                <div class="card h-100 secondary-bg text-white border-0 p-3 shadow-sm rounded-4">
+                    <div class="card-body">
+                        <h3 class="card-title h5 fw-bold text-accent-color">Chế độ Dark Focus</h3>
+                        <p class="card-text small text-light opacity-75">Tập trung tối đa vào thiết kế với giao diện tương phản cao, dịu mắt khi làm việc ban đêm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 accent-bg text-white border-0 p-3 shadow-sm rounded-4">
+                    <div class="card-body">
+                        <h3 class="card-title h5 fw-bold">Ý tưởng bùng nổ</h3>
+                        <p class="card-text small text-white opacity-90">Tích hợp bảng vẽ nháp thời gian thực để cả nhóm cùng đóng góp góc nhìn đa chiều.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center p-4 rounded-4 bg-white text-muted small border">
+            <p class="mb-1 fw-bold text-dark">&copy; 2026 Creative Pulse. Mọi quyền được bảo lưu.</p>
+            <p class="mb-0">Khám phá thêm các bảng phối màu tại Adobe Color để tối ưu giao diện.</p>
+        </footer>
+    </div>
+</body>
+</html>
